@@ -3,8 +3,8 @@
 #   I want to see Player 2's Hit Points
 
 feature 'Hit points' do
-   scenario 'Player can see opponents hit points' do
-     sign_in_and_play
-     expect(page).to have_content "Anastasiia: 60HP"
-   end
- end
+  scenario 'Player can see opponents hit points' do
+    sign_in_and_play
+    expect(page).to have_content 'Quincy: 60HP'
+  end
+end
